@@ -9,5 +9,12 @@ class HomeScreenBinding extends Bindings{
   void dependencies() {
     Get.lazyPut(() => HomeScreenController());
   }
+}
 
+class LoginScreenBinding extends Bindings
+{
+  @override
+  void dependencies() {
+    Get.lazyPut(() => LoginScreenController());
+  }
 }

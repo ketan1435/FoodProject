@@ -15,7 +15,8 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Center(
-              child: Text("Ketan"))
+              child: Text("Ketan")
+          ),
         ],
       ),
     );
