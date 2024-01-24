@@ -176,7 +176,8 @@ class _FormExampleState extends State<SignUppage> {
                                   child: Text("Sign Up",style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.black),)),
                               SizedBox(
                                 height: 25,
-                              )
+                              ),
+                              Text("hjkh")
                             ],
                           ),
                         ),
