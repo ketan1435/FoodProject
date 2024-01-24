@@ -4,3 +4,7 @@ class HomeScreenController extends GetxController
 {
 
 }
+class RegisterScreenController extends GetxController
+{
+
+}

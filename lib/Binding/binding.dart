@@ -11,3 +11,9 @@ class HomeScreenBinding extends Bindings{
   }
 
 }
+class RegisterScreenBinding extends Bindings{
+  @override
+  void dependencies() {
+    Get.lazyPut(() => RegisterScreenController());
+  }
+}
