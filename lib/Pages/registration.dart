@@ -169,7 +169,7 @@ class _FormExampleState extends State<SignUppage> {
                                   style: ElevatedButton.styleFrom(
                                       primary: Colors.purple.shade100,
                                       shape: RoundedRectangleBorder(
-                                          borderRadius: BorderRadius.circular(8)
+                                       borderRadius: BorderRadius.circular(8)
                                       )
 
                                   ),
