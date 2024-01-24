@@ -41,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           TextFormField(
                            controller: loginScreenController.emailcontroller,
                             decoration: InputDecoration(
-
+                                   hintText: "hellow",
                               border: InputBorder.none
                             ),
                           ),
