@@ -1,19 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
+import '../Pages/login_screen.dart';
+
 class HomeScreenController extends GetxController
 {
 
-<<<<<<< HEAD
+
 }
 class RegisterScreenController extends GetxController
 {
 
 }
-=======
 
-
-}
 
 class LoginScreenController extends GetxController
 {
@@ -23,3 +22,15 @@ class LoginScreenController extends GetxController
 
 }
 
+class SplashScreenController extends GetxController
+{
+
+  RxBool animate = false.obs;
+  Future Startanimation() async{
+    await Future.delayed(Duration(milliseconds: 2000));
+    animate.value =true;
+    await Future.delayed(Duration(milliseconds: 4000));
+    Get.toNamed("/loginroute");
+  }
+
+}

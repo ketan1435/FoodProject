@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class SignUppage extends StatefulWidget {
-  const SignUppage({super.key});
+class ResistrationScreen extends StatefulWidget {
+  const ResistrationScreen({super.key});
 
   @override
-  State<SignUppage> createState() => _FormExampleState();
+  State<ResistrationScreen> createState() => _FormExampleState();
 }
 
-class _FormExampleState extends State<SignUppage> {
+class _FormExampleState extends State<ResistrationScreen> {
 
   final _key=GlobalKey<FormState>();
   @override
